@@ -7,7 +7,7 @@ public class Base {
 	public WebDriver driver;
 public void launchBrowser() {
 	driver=new ChromeDriver();//launches the browser
-	driver.get("https://selenium.qabible.in/index.php");//opens the particular url in the get method
+	driver.get("https://selenium.qabible.in/simple-form-demo.php");//opens the particular url in the get method
 	driver.manage().window().maximize();//To maximise the window
 }
 public void closeQuit() {
